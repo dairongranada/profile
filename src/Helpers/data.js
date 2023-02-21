@@ -8,31 +8,23 @@ import img3 from '../image/project-3.png'
 export const Experience = [
     {
         id: 1,
-        date: "2022 - present",
+        date: "2021 - 2023 - present",
+        iconsSrc: <IoCodeWorking />,
+        title: "Analisis y desarrollo en sistemas de informacion",
+        location: "Armenia - Quindio (Cololmbia)",
+        name_company: "SENA Centro de comercio y turismo",
+        describe: "Desarrollar y testear aplicaciones en tecnologías de desarrollo de software. Utilizar técnicas y patrones de construcción de sistemas de información. Garantizar la calidad de los sistemas desarrollados.",
+    },   
+    {
+        id: 2,
+        date: "2022 - 2023 - present",
         iconsSrc: <IoCodeWorking />,
         title: "Front-End Developer",
-        location: "Venezuela",
-        name_company: "BmBot Solutions",
-        describe: "Development of App, User Experience, Connectivity with SmartContract, Web3",
+        location: "Armenia - Quindio (Cololmbia)",
+        name_company: "Don Pollo",
+        describe: "Migraciones de Apps Antiguas, Experiencia de Usuario",
     },
-    {
-    id: 2,
-        date: "2021 - 2022 finished",
-        iconsSrc: <IoCodeWorking />,
-        title: "Developer Software",
-        location: "Chile",
-        name_company: "Visibilitytech",
-        describe: "Development of App, User Experience, Visual Design, Project Management",
-    },
-    {
-        id: 3,
-            date: "2019 - 2022 finished",
-            iconsSrc: <IoCodeWorking />,
-            title: "Control and Logistics Coordinator",
-            location: "Chile",
-            name_company: "TechSolutions",
-            describe: "General coordinator of all technicians, User Experience, Front-End, Project Lead",
-        }
+
     ]
 
 export const Projects = [
