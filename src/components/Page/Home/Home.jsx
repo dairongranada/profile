@@ -1,19 +1,19 @@
 import React from 'react'
-import Nav from "../../Layouts/Nav";
-import About from "../../Layouts/About";
-import Experiences from "../../Layouts/Experiences";
-import Timelines from "../../Layouts/Timelines";
-import Works from "../../Layouts/Works";
-import Contacts from "../../Layouts/Contacts";
+import Nav from "../../Layouts/Nav/Nav";
+import About from "../../Layouts/Views/Me/About";
+import Bot from "../../Layouts/Views/Main/Bot";
+import Experiences from "../../Layouts/Views/Me/Experiences";
+import Works from "../../Layouts/Views/Me/Works";
+import Contacts from "../../Layouts/Views/Contact/Contacts";
 import { BiDonateBlood } from "react-icons/bi"
 
 export const Home = () => {
   return (
     <>
         <Nav />
-        <Experiences />
+        <Bot />
         <About />
-        <Timelines />
+        <Experiences />
         <Works />
         <Contacts />
 

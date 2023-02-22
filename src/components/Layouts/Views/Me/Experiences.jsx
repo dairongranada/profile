@@ -1,11 +1,11 @@
 import React from "react";
 import { VerticalTimeline, VerticalTimelineElement, } from "react-vertical-timeline-component";
-import "../../styles/react-vertical-style.css";
-import { Experience } from "../../Helpers/data";
+import "../../../../styles/react-vertical-style.css";
+import { Experience } from "../../../../Helpers/data";
 import { IoCodeWorking } from "react-icons/io5"
 
 
-const Timelines = () => {
+const Experiences = () => {
   let experiences = Experience.map((n) => {
 
     return (
@@ -41,4 +41,4 @@ const Timelines = () => {
   );
 };
 
-export default Timelines;
+export default Experiences;

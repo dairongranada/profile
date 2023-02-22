@@ -21,7 +21,7 @@ export const Experience = [
         iconsSrc: <IoCodeWorking />,
         title: "Front-End Developer",
         location: "Armenia - Quindio (Cololmbia)",
-        name_company: "Don Pollo",
+        name_company: "Don Pollo S.A.S",
         describe: "Migraciones de Apps Antiguas, Experiencia de Usuario, ",
     },
 

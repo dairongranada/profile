@@ -1,6 +1,6 @@
 import React from "react";
 import { IoLogoGithub } from "react-icons/io5";
-import { Projects } from "../../Helpers/data";
+import { Projects } from "../../../../Helpers/data";
 import { motion } from "framer-motion";
 
 const Works = () => {
