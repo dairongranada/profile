@@ -1,3 +1,7 @@
+._RZMQZ{
+  display: none;
+}
+
 .vertical-timeline * {
   box-sizing: border-box;
 }
@@ -186,7 +190,7 @@
 }
 .vertical-timeline-element-content .vertical-timeline-element-date,
 .vertical-timeline-element-content p {
-  font-size: 13px;
+  font-size: 11px;
   font-size: 0.8125rem;
   font-weight: 500;
 }
@@ -468,8 +472,8 @@
   background-color: #7a7a7a9c;
   border-radius: 50%;
   position: fixed;
-  bottom: 10px;
-  left: 10px;
+  bottom: 350px;
+  left: 350px;
   font-size: 50px;
   padding: 5px;
   cursor: pointer;
