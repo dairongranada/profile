@@ -32,7 +32,7 @@ export const Projects = [
         id: 1,
         name: "Style Tatto",
         imageSrc: img1,
-        techs: "Python (Django),  React, Sass",
+        techs: "Python (Django), React, MySQL",
         github: "https://github.com/dairongranada/RazersGaming-",
         web: "https://github.com/dairongranada/FrontEnd-Styletattoo"
     },
@@ -40,7 +40,7 @@ export const Projects = [
         id: 2,
         name: "Razers Gaming",
         imageSrc: img2,
-        techs: "React, Css, ",
+        techs: "React, Firebase ",
         github: "https://github.com/dairongranada/RazersGaming-",
         web: "https://github.com/dairongranada/FrontEnd-Styletattoo"
     },
@@ -58,8 +58,8 @@ export const SocialLinks = [
     {
         id: '1',
         name: 'Instagram',
-        iconsSrc: <IoLogoInstagram className="text-instagram text-3xl cursor-pointer" />,
-        link: 'https://instagram.com/dairongranadaa'
+        iconsSrc: <IoLogoInstagram className="text-red-600 text-3xl cursor-pointer" />,
+        link: 'https://instagram.com/dairongranadaa23'
     },
     {
         id: '2',

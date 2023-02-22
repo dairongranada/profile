@@ -1,16 +1,47 @@
 
+import {useState} from 'react'
 import { Home } from "./components/Page/Home/Home.jsx";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
 function App() {
+  const [changeLoading, setchangeLoading] = useState(true);
+
+  setTimeout(function(){
+    setchangeLoading(false)
+}, 1000);
+
   return (
     <>
-
-
       <ToastContainer />
-      <Home />
+
+      {changeLoading &&
+      <div className='w-full h-screen flex gap-px flex-wrap flex-col items-center justify-evenly relative bg-primary pb-10' >
+        <div class="pl">
+          <div class="pl__dot"></div>
+          <div class="pl__dot"></div>
+          <div class="pl__dot"></div>
+          <div class="pl__dot"></div>
+          <div class="pl__dot"></div>
+          <div class="pl__dot"></div>
+          <div class="pl__dot"></div>
+          <div class="pl__dot"></div>
+          <div class="pl__dot"></div>
+          <div class="pl__dot"></div>
+          <div class="pl__dot"></div>
+          <div class="pl__dot"></div>
+          <div class="pl__text text-textBase ">Cargando....</div>
+        </div>
+      
+      </div>
+      }   
+
+      {!changeLoading &&
+        <Home />
+      }   
+
+
     </>
   );
 }

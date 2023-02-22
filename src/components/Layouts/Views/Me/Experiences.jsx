@@ -13,7 +13,7 @@ const Experiences = () => {
         key={n.id} 
         className="vertical-timeline-element--work"
         contentStyle={{ background: "rgb(70, 70, 70)", color: "#ccc" }}
-        contentArrowStyle={{ borderRight: "8px solid  rgb(33, 150, 243)" }}
+        contentArrowStyle={{ borderRight: "8px solid  #fff" }}
         date={n.date} iconStyle={{ background: "rgb(70, 70, 70)", color: "#ccc" }}
         icon={<IoCodeWorking />} >
         

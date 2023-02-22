@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@madzadev/audio-player": "^1.1.11",
     "@splinetool/react-spline": "^2.2.5",
     "@splinetool/runtime": "^0.9.213",
     "@testing-library/jest-dom": "^5.14.1",
