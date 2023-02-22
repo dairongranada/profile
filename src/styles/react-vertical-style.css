@@ -182,7 +182,7 @@
   clear: both;
 }
 .vertical-timeline-element-content h2 {
-  color: #303e49;
+  color: #e3e4e6;
 }
 .vertical-timeline-element-content .vertical-timeline-element-date,
 .vertical-timeline-element-content p {
@@ -461,4 +461,22 @@
     -o-transform: translateX(0);
     transform: translateX(0);
   }
+}
+
+
+.ContDonations{
+  background-color: #7a7a7a9c;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  font-size: 50px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.donations{
+  font-size: 30px;
+  color: #000000dc;
+  z-index: 999;
 }

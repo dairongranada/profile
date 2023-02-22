@@ -4,11 +4,19 @@ import "../../styles/react-vertical-style.css";
 import { Experience } from "../../Helpers/data";
 import { IoCodeWorking } from "react-icons/io5"
 
+
 const Timelines = () => {
   let experiences = Experience.map((n) => {
 
     return (
-      <VerticalTimelineElement key={n.id} className="vertical-timeline-element--work"contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}contentArrowStyle={{ borderRight: "8px solid  rgb(33, 150, 243)" }}date={n.date} iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}icon={<IoCodeWorking />} >
+      <VerticalTimelineElement 
+        key={n.id} 
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: "rgb(70, 70, 70)", color: "#ccc" }}
+        contentArrowStyle={{ borderRight: "8px solid  rgb(33, 150, 243)" }}
+        date={n.date} iconStyle={{ background: "rgb(70, 70, 70)", color: "#ccc" }}
+        icon={<IoCodeWorking />} >
+        
         <h3 className="vertical-timeline-element-title">
           {n.title}
         </h3>

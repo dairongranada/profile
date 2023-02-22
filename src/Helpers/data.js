@@ -22,7 +22,7 @@ export const Experience = [
         title: "Front-End Developer",
         location: "Armenia - Quindio (Cololmbia)",
         name_company: "Don Pollo",
-        describe: "Migraciones de Apps Antiguas, Experiencia de Usuario",
+        describe: "Migraciones de Apps Antiguas, Experiencia de Usuario, ",
     },
 
     ]

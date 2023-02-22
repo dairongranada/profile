@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import { IoMenu } from 'react-icons/io5'
 import { motion, AnimatePresence } from 'framer-motion'
-import cv from '../../cvpdf/RobertMedina.pdf'
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 
 
 
@@ -38,7 +37,7 @@ const Nav = () => {
                     <a href="#about" className='text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out'>Acerca de</a>
                     <a href="#projects" className='text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out'>Proyectos</a>
                     <a href="#contact" className='text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out'>Contacto</a>
-                    <a href='#' onClick={hadlechnage} rel="noopener noreferrer" className='ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out'>Descargar CV</a>
+                    <span  onClick={hadlechnage}  className='ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out'>Descargar CV</span>
                 </div>
                 <motion.div
                     whileTap={{ scale: 0.5 }}
@@ -57,7 +56,8 @@ const Nav = () => {
                             <a href="#about" className='text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out' onClick={() => setIsActive(false)}>Acerca de</a>
                             <a href="#projects" className='text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out' onClick={() => setIsActive(false)}>Proyectos</a>
                             <a href="#contact" className='text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out' onClick={() => setIsActive(false)}>Contacto</a>
-                            <a href={cv} target="_blank" rel="noopener noreferrer" className='text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out'>Descargar CV</a>
+                            <span  onClick={hadlechnage}  className='text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out'>Descargar CV</span>
+
                         </motion.div>
                     )}
                 </AnimatePresence>
