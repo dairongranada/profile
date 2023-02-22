@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Nav from "../../Layouts/Nav/Nav";
 import About from "../../Layouts/Views/Me/About";
 import Bot from "../../Layouts/Views/Main/Bot";
@@ -6,10 +6,24 @@ import Experiences from "../../Layouts/Views/Me/Experiences";
 import Works from "../../Layouts/Views/Me/Works";
 import Contacts from "../../Layouts/Views/Contact/Contacts";
 import { Sound } from "../../Layouts/Sounds/Sound";
+import { SiApplemusic } from "react-icons/si";
+import $ from "jquery";
 
 
 
 export const Home = () => {
+
+  useEffect(() => {
+    $('.ContModal').hide();
+    
+  }, [])
+  
+
+  const onChangeMusic = () => {
+    $('.ContModal').show();
+
+  };
+
   return (
     <>
       <Sound/>
@@ -32,6 +46,11 @@ export const Home = () => {
       <div className='bg-primary pb-10  pl-20 pt-5 border-t-sky-50' >
         <span className='text-slate-500' >Copyright © 2023 - Designed by Dairon Granada</span>
       </div>
+
+      <div onClick={onChangeMusic}  class="card">
+        <div class="img"><SiApplemusic/></div>
+      </div>
+
 
     </>
   )

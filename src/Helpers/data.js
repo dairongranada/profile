@@ -42,7 +42,7 @@ export const Projects = [
         imageSrc: img2,
         techs: "React, Firebase ",
         github: "https://github.com/dairongranada/RazersGaming-",
-        web: "https://github.com/dairongranada/FrontEnd-Styletattoo"
+        web: "https://github.com/dairongranada/RazersGaming-"
     },
     {
         id: 3,

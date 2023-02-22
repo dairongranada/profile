@@ -223,6 +223,14 @@ h4{
   transform: rotateZ(-45deg);
 }
 
+.Soundtracks ._awgvT{
+  -webkit-appearance: media-slider;
+}
+.Soundtracks ._mIY65 {
+  -webkit-appearance: media-slider;
+}
+
+
 /* Animations */
 @keyframes shadow724 {
   from {
@@ -276,4 +284,39 @@ h4{
     background-color: var(--bg);
     clip-path: polygon(0 75%, 100% 75%, 100% 100%, 0 100%);
   }
+}
+
+
+
+.card {
+  width: auto;
+  height: auto;
+  padding: 8px;
+  background: #353535;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  backdrop-filter: blur(10px);
+  transition: 0.5s ease-in-out;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+
+.img svg{
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.card:hover > .img svg{
+  transition: 0.5s ease-in-out;
+  background: linear-gradient(#dadada, #ffffff);
 }
