@@ -9,6 +9,7 @@ import { Sound } from "../../Layouts/Sounds/Sound";
 import { SiApplemusic } from "react-icons/si";
 import $ from "jquery";
 
+import { Cookie } from "../Cookies/Cookie";
 
 
 export const Home = () => {
@@ -50,8 +51,7 @@ export const Home = () => {
       <div onClick={onChangeMusic}  className="card">
         <div className="img"><SiApplemusic/></div>
       </div>
-
-
+      <Cookie/>
     </>
   )
 }
