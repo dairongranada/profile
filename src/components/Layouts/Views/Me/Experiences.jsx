@@ -1,6 +1,6 @@
 import React from "react";
 import { VerticalTimeline, VerticalTimelineElement, } from "react-vertical-timeline-component";
-import "../../../../styles/react-vertical-style.css";
+import "./Experiences.css";
 import { Experience } from "../../../../Helpers/data";
 import { IoCodeWorking } from "react-icons/io5"
 

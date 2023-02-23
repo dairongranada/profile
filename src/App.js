@@ -18,20 +18,20 @@ function App() {
 
       {changeLoading &&
       <div className='w-full h-screen flex gap-px flex-wrap flex-col items-center justify-evenly relative bg-primary pb-10' >
-        <div class="pl">
-          <div class="pl__dot"></div>
-          <div class="pl__dot"></div>
-          <div class="pl__dot"></div>
-          <div class="pl__dot"></div>
-          <div class="pl__dot"></div>
-          <div class="pl__dot"></div>
-          <div class="pl__dot"></div>
-          <div class="pl__dot"></div>
-          <div class="pl__dot"></div>
-          <div class="pl__dot"></div>
-          <div class="pl__dot"></div>
-          <div class="pl__dot"></div>
-          <div class="pl__text text-textBase ">Cargando....</div>
+        <div className="pl">
+          <div className="pl__dot"></div>
+          <div className="pl__dot"></div>
+          <div className="pl__dot"></div>
+          <div className="pl__dot"></div>
+          <div className="pl__dot"></div>
+          <div className="pl__dot"></div>
+          <div className="pl__dot"></div>
+          <div className="pl__dot"></div>
+          <div className="pl__dot"></div>
+          <div className="pl__dot"></div>
+          <div className="pl__dot"></div>
+          <div className="pl__dot"></div>
+          <div className="pl__text text-textBase ">Cargando....</div>
         </div>
       
       </div>

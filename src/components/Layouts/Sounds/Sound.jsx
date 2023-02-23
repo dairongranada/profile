@@ -17,10 +17,10 @@ export const Sound = ({ value }) => {
 
     const handleC =() =>{
       $('.ContModal').hide();
-
     }
 
-    const tracks = [
+    const 
+    tracks = [
         {
           url: Ms1,
           title: "buhodermia - Joven Figaro",
@@ -57,7 +57,7 @@ export const Sound = ({ value }) => {
 
           <div className='modalBody' > 
           <div className='Imge'>
-          <span className=' rounded-full bg-stone-100	' ><SiApplemusic style={{fontSize: "12rem"}} /></span>
+          <span className=' rounded-full bg-stone-100	' ><SiApplemusic style={{fontSize: "14em"}} /></span>
           </div>
 
           <div className='Soundtracks' >

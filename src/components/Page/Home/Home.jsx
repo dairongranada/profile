@@ -44,11 +44,11 @@ export const Home = () => {
 
       <hr />
       <div className='bg-primary pb-10  pl-20 pt-5 border-t-sky-50' >
-        <span className='text-slate-500' >Copyright © 2023 - Designed by Dairon Granada</span>
+        <span className='Copyright text-slate-500' >Copyright © 2023 - Designed by Dairon Granada</span>
       </div>
 
-      <div onClick={onChangeMusic}  class="card">
-        <div class="img"><SiApplemusic/></div>
+      <div onClick={onChangeMusic}  className="card">
+        <div className="img"><SiApplemusic/></div>
       </div>
 
 

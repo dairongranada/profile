@@ -15,21 +15,22 @@ const Contacts = () => {
   return (
 
     <>
-    <div id="contact" className="flex  flex-wrap items-center justify-evenly relative bg-primary pb-10">
-      <section className='flex flex-wrap items-center justify-center my-24 md:max-w-screen-xl bg-primary p-4'>
-        
-        <p className='text-2xl text-gray-400 capitalize'>
-          Redes Sociales 
-        </p>
+      <div id="contact" className="flex  flex-wrap items-center justify-evenly relative bg-primary pb-10">
+        <section className='flex flex-wrap items-center justify-center my-24 md:max-w-screen-xl bg-primary p-4'>
 
-        <div className="flex items-center justify-center w-full my-4 flex-wrap gap-4">
-          {socials}
-        </div>
-        
-      </section>
-    </div>
+          <p className='text-2xl text-gray-400 capitalize'>
+            Redes Sociales
+          </p>
+
+          <div className="flex items-center justify-center w-full my-4 flex-wrap gap-4">
+            {socials}
+          </div>
+
+        </section>
+      </div>
+    
     </>
   )
 }
 
-        export default Contacts
+export default Contacts
