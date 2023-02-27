@@ -11,7 +11,7 @@ const Nav = () => {
 
 
     const hadlechnage = () => {
-        toast.warn('Ups.. al parecer esta gonorrea de pagina esta pailas, Vuelve a intentarlo mas tarde.', {
+        toast.warn('Ups.. al parecer estamos teniendo problemas, Vuelve a intentarlo mas tarde.', {
             position: "top-left",
             autoClose: 5000,
             hideProgressBar: false,
